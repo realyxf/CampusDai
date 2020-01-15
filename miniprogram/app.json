@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3CB371",
+    "navigationBarTitleText": "校园代",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon/index.png",
+      "selectedIconPath": "images/icon/index-s.png"
+    },
+    {
+      "pagePath": "pages/add/add",
+      "text": "发布",
+      "iconPath": "images/icon/add.png",
+      "selectedIconPath": "images/icon/add-s.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/icon/mine.png",
+      "selectedIconPath": "images/icon/mine-s.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
