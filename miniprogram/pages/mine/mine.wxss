@@ -1,1 +1,25 @@
-/* pages/mine/mine.wxss */
+.mine{
+  background: #3CB371;
+  height: 400rpx;
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 100%;
+  font-size: 50rpx;
+}
+
+.mine-img{
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.mine-name{
+  display: block;
+  justify-content: center;
+  margin: 40rpx;
+}
